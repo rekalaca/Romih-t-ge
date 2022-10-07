@@ -529,6 +529,7 @@ section {
 .what-we-do .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  
 }
 
 .what-we-do .icon-box:hover h4 a,
@@ -682,6 +683,7 @@ section {
   border-radius: 6px;
   background: #fff;
   transition: ease-in-out 0.3s;
+  
 }
 
 .services .icon-box i {
@@ -696,25 +698,30 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  
 }
 
 .services .icon-box h4 a {
   color: #384046;
   transition: 0.3s;
+  
 }
 
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
+  
 }
 
 .services .icon-box:hover {
   box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+  
 }
 
 .services .icon-box:hover h4 a {
   color: #3498db;
+  
 }
 
 /*--------------------------------------------------------------
@@ -1423,4 +1430,24 @@ section {
   background: #5faee3;
   color: #fff;
   text-decoration: none;
+}
+
+.igazit{
+  font-size: 14px;
+}
+.szamlalo{
+  color: #d7dbde;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.paralax-mf {
+  position: relative;
+  padding: 2rem 0;
 }
